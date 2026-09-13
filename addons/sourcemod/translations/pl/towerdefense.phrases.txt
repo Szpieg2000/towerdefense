@@ -1,0 +1,398 @@
+"Phrases"
+{
+  //waves
+  "waveStart"
+  {
+    "#format" "{1:N},{2:d}"
+    "pl"      "Fala {2} zaczęta przez {1}"
+  }
+  "waveIncomming"
+  {
+    "#format" "{1:d}"
+    "pl"      "Fala {1} przybywa!"
+  }
+  "waveIncommingWithHealth"
+  {
+    "#format" "{1:d},{2:d}"
+    "pl"      "Fala ({1}) z {2} HP przybywa!"
+  }
+  "waveIncommingWithHealthAndType"
+  {
+    "#format" "{1:s},{2:d},{3:d}"
+    "pl"      "{1} Fala ({2}) z {3} HP przybywa!"
+  }
+  "waveArrivingIn"
+  {
+    "#format" "{1:02d}"
+    "pl"      "Kolejna fala zaczyna się za: {1}"
+  }
+  "waveStartedEarly"
+  {
+    "#format" "{1:d},{2:d}"
+    "pl"      "Każdemu dano {1} metalu za zaczęcie {2} sekund wcześniej!"
+  }
+  "wavePassed"
+  {
+    "#format" "{1:d}"
+    "pl"      "*** Fala {1} zakończona ***"
+  }
+  "wavePrepareTime"
+  {
+    "#format" "{1:d}"
+    "pl"      "{1} sekund przeznaczone na przygotowanie do kolejnej fali!"
+  }
+  "waveTowersUnlocked"
+  {
+    "pl"      "Wieże zostały odblokowane i można je przenieść!"
+  }
+  "waveBonusAvailable"
+  {
+    "#format" "{1:d}"
+    "pl"      "Nowy bonus (fali {1}) dostępny, sprawdź sklep!"
+  }
+  "waveTowersLocked"
+  {
+    "pl"      "Wieże zostały zalokowane!"
+  }
+  "waveTypeRapid"
+  {
+    "pl"      "Szybkie"
+  }
+  "waveTypeRegen"
+  {
+    "pl"      "Regeneracyjne"
+  }
+  "waveTypeKnockbackImmune"
+  {
+    "pl"      "Odporne na odbicie"
+  }
+  "waveTypeAir"
+  {
+    "pl"      "Powietrzny"
+  }
+  "waveTypeJarateImmune"
+  {
+    "pl"      "Odporne na Sikwondo"
+  }
+  "waveTypeBoss"
+  {
+    "pl"      "Boss"
+  }
+  //towers
+  "towerBuyAttempt"
+  {
+    "#format" "{1:N},{2:s},{3:d}"
+    "pl"      "{1} chce kupić {2} (Pełna cena: {3} metal)"
+  }
+  "towerBought"
+  {
+    "#format" "{1:N},{2:s}"
+    "pl"      "{2} zakupione przez {1}"
+  }
+  "towerMoving"
+  {
+    "#format" "{1:N}"
+    "pl"      "Przenoszenie: {1}"
+  }
+  "towerPickedUp"
+  {
+    "#format" "{1:s}"
+    "pl"      "Podniesiono {1}"
+  }
+  "towerUpgradeLevel"
+  {
+    "#format" "{1:N},{2:d}"
+    "pl"      "{1} uzyskał poziom {2}"
+  }
+  "towerUpgradeDamageBonus"
+  {
+    "#format" "{1:N},{2:d}"
+    "pl"      "{1} uzyskał {2}%% bonus obrażeń"
+  }
+  "towerUpgradeAttackSpeed"
+  {
+    "#format" "{1:N},{2:d}"
+    "pl"      "{1} uzyskał {2}%% szybkości ataku"    
+  }
+  "towerUpgradeCanRotate"
+  {
+    "#format" "{1:N}"
+    "pl"      "{1} może się obracać"   
+  }
+  "towerUpgradeProgress"
+  {
+    "#format" "{1:N},{2:d},{3:d},{4:d}"
+    "pl"      "{1} \n aktualny poziom: {2} \n Postęp poziomu: {3}/{4}"
+  }
+  "towerUpgradeMaxLevel"
+  {
+    "#format" "{1:N},{2:d}"
+    "pl"      "{1} \n aktualny poziom: {2} \n Uzyskano maksymalny poziom"
+  }
+  //buttons
+  "towerInsufficientMetal"
+  {
+    "#format" "{1:N},{2:d}"
+    "pl"      "{1} potrzebuje {2} metalu"
+  }
+  "sentryLimitChanged"
+  {
+    "#format" "{1:d}"
+    "pl"      "Twój limit działek zmieniony na {1}"
+  }
+  "sentryLimitBuildInfo"
+  {
+    "pl"      "Możesz wybudować dodatkowe działka przez użytek komendy /s"   
+  }
+  "dispenserLimitChanged"
+  {
+    "#format" "{1:d}"
+    "pl"      "Twój limit zasobników zmieniony na {1}"
+  }
+  "dispenserLimitBuildInfo"
+  {
+    "pl"      "Możesz wybudować zasobniki przez użytek PDA budowy"   
+  }
+  "critChanceLimitReached"
+  {
+    "pl"      "Nie możesz zwiększyć szansy obrażeń krytycznych"   
+  }
+  "critChanceSet"
+  {
+    "#format" "{1:d}"
+    "pl"      "Szansa obrażeń krytycznych zmieniona na {1}"
+  }
+  "dmgMultiplierSet"
+  {
+    "#format" "{1:d}"
+    "pl"      "Mnożnik obrażeń zmieniony na {1}"
+  }
+  "nextUpgradeCost"
+  {
+    "#format" "{1:d}"
+    "pl"      "Kolejny poziom będzie wymagał [{1}] metalu na gracza"
+  }
+  //timers
+  "hintBuildInfo"
+  {
+    "pl"      "Możesz wybudować zasobniki przez użytek PDA budowy lub przez użytek komendy /s"   
+  }
+  "hintDropMetal"
+  {
+    "pl"      "Użyj komendy /d <ilość> by upuścić metal innym graczom"   
+  }
+  "hintMetalStatus"
+  {
+    "pl"      "Sprawdź ile każdy gracz ma metalu przez użycie komendy /m"   
+  }
+  "hintMetalTransfer"
+  {
+    "pl"      "Przekaż metal innemu graczowi przez użycie komendy /t <gracz> <ilość>"   
+  }
+  "hintCheckWave"
+  {
+    "pl"      "Sprawdź bieżącą fale przez użycie komendy /w"   
+  }
+  "hintDeath"
+  {
+    "pl"      "Stracisz połowę swojego metalu przy zginięciu!"   
+  }
+  //events
+  "eventPlayerJoined"
+  {
+    "#format" "{1:N}"
+    "pl"      "{1} dołączył/a do drużyny obrońców"   
+  }
+  "eventGameOver"
+  {
+    "pl"      "Koniec gry! Restartowanie mapy..."   
+  }
+  //commands
+  "cmdCurrentWave"
+  {
+    "#format" "{1:d},{2:d}"
+    "pl"      "Aktualnie na fali {1} z {2}"
+  }
+  "cmdMetalStats"
+  {
+    "pl"      "Status metalu:"   
+  }
+  "cmdMetalStatsPlayer"
+  {
+    "#format" "{1:N},{2:d}"
+    "pl"      "{1} - {2} metalu"   
+  }
+  "cmdPassword"
+  {
+    "#format" "{1:s}"
+    "pl"      "Hasło serwera to {1}"
+  }
+  "cmdServerNotLockable"
+  {
+    "pl"      "Serwer nie może być zamknięty!"
+  }
+  "cmdSetPasswordInfo1"
+  {
+    "#format" "{1:s}"
+    "pl"      "Zmiana hasła serwera na {1}"
+  }
+  "cmdSetPasswordInfo2"
+  {
+    "pl"      "Jeżeli chcesz aby twoi przyjaciele mogli dołączyć do gry, podaj im hasło serwera."
+  }
+  "cmdSetPasswordInfo3"
+  {
+    "pl"      "Użyj komendy !p by sprawdzić hasło serwera."
+  }
+  "cmdPreGameInfo1"
+  {
+    "pl"      "Miejcie zabawę podczas grania!"
+  }
+  "cmdPreGameInfo2"
+  {
+    "pl"      "Pamiętaj by zbierać paczki metalu pozostawione na mapie!"
+  }
+  "cmdBuyTower"
+  {
+    "#format" "{1:N},{2:s}"
+    "pl"      "{1} zakupił/a {2}"
+  }
+  "cmdSetWave"
+  {
+    "#format" "{1:d}"
+    "pl"      "Fala ustawiona na {1}"
+  }
+  "cmdSetWaveOOB"
+  {
+    "#format" "{1:d}"
+    "pl"      "Maksymalnie jest {1} fal. Wybierz wartość poniżej tej!"
+  }
+  "cmdSetWaveUsage"
+  {
+    "pl"      "Użycie: !sw <fala>"
+  }
+  "cmdBuildSentryInfo"
+  {
+    "pl"      "By ulepszyć działko potrzebne jest 1000 metalu!"
+  }
+  "cmdDropMetalUsage"
+  {
+    "pl"      "Użycie: !d <ilość>"
+  }
+  "cmdTransferMetalUsage"
+  {
+    "pl"      "Użycie: !t <gracz> <ilość>"
+  }
+  "cmdTransferMetalReceived"
+  {
+    "#format" "{1:d},{2:N}"
+    "pl"      "Otrzymano {1} metalu od {2}."
+  }
+  "cmdTransferMetalSent"
+  {
+    "#format" "{1:N},{2:d}"
+    "pl"      "{1} otrzymał {2} metalu od ciebie."
+  }
+  //forbid
+  "forbidSetWaveMidWave"
+  {
+    "pl"      "{red}Nie można ustawić fali w trakcie innej, dokończ aktualną fale przed użyciem!"
+  }
+  "forbidCantFindPlayer"
+  {
+    "#format" "{1:s}"
+    "pl"      "{red}Nie można było znaleźć gracza {1}."
+  }
+  "forbidTooUnspecific"
+  {
+    "pl"      "{red}Bądź bardziej specyficzny."
+  }
+  "forbidNoBuildWhileTaunting"
+  {
+    "pl"      "{red}Nie można budować podczas użytku drwiny!"
+  }
+  "forbidNoBuildWhileCarrying"
+  {
+    "pl"      "{red}Nie można budować podczas noszenia konstrukcji lub wieży!"
+  }
+  "forbidInsufficientMetal"
+  {
+    "#format" "{1:d}"
+    "pl"      "{red}Potrzebujesz przynajmniej {1} metalu!"
+  }
+  "forbidSentryLimit"
+  {
+    "#format" "{1:d}"
+    "pl"      "{red}Limit działek osiągnięty! (Limit: {1})"
+  }
+  "forbidDispenserLimit"
+  {
+    "#format" "{1:d}"
+    "pl"      "{red}Limit zasobników osiągnięty! (Limit: {1})"
+  }
+  "forbidCantPlaceTowerThere"
+  {
+    "pl"      "{red}Nie można postawić wieży w tym miejscu."
+  }
+  "forbidTowerAlreadyCarried"
+  {
+    "#format" "{1:N}"
+    "pl"      "{red}{1} jest już podniesiona przez kogoś innego!"
+  }
+  "forbidTowerLockedMidwave"
+  {
+    "pl"      "{red}Nie można przenieść wieży podczas fali!"
+  }
+  "forbidCantPlaceTowerOnPath"
+  {
+    "pl"      "{red}Nie powinno się postawiać wieży na drodze!"
+  }
+  "forbidCantPlaceTowerMidwave"
+  {
+    "pl"      "{red}Nie można postawiać wież podczas fali!"
+  }
+  "forbidNoPasswordSet"
+  {
+    "pl"      "{red}Serwer nie ma ustawionego hasła!"
+  }
+  "forbidCantBuildInsideAPlayer"
+  {
+    "pl"      "{red}Nie można budować w środku drugiego gracza!"
+  }
+  "forbidInvalidInput"
+  {
+    "pl"      "{red}Niewłaściwe dane wejściowe."
+  }
+  "forbidDropMinMetal"
+  {
+    "pl"      "{red}Musisz upuścić przynajmniej 1 sztukę metalu"
+  }
+  "forbidDeadCantDropMetal"
+  {
+    "pl"      "{red}Nie można upuścić metalu zza światów"
+  }
+  "forbidInAirCantDropMetal"
+  {
+    "pl"      "{red}Nie można upuścić metalu w powietrzu"
+  }
+  "forbidDropMetalLimit"
+  {
+    "pl"      "{red}Limit paczek metalu osiągniety, podnieś trochę z nich!"
+  }
+  "forbidUnableDropMetal"
+  {
+    "pl"      "{red}Nie można upuścić metalu"
+  }
+  "forbidTransferNotEnough"
+  {
+    "pl"      "{red}Nie można przekazać więcej metalu niż się ma!"
+  }
+  "forbidTransferNegative"
+  {
+    "pl"      "{red}Nie można przekazać negatywnych ilości metalu!"
+  }
+  "forbidTransferDead"
+  {
+    "pl"      "{red}Nie można przekazać metalu zza światów!"
+  }
+}
